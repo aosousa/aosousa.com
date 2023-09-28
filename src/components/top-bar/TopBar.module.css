@@ -1,0 +1,31 @@
+.container {
+    @apply h-16 min-w-full flex flex-row items-center dark:bg-zinc-800 shadow-sm border-b;
+}
+
+.profileImage {
+    @apply w-12 h-12 shadow rounded-full ml-4 cursor-pointer;
+}
+
+.profileName {
+    @apply font-semibold text-xl uppercase ml-2 hover:text-green-600 cursor-pointer;
+}
+
+.item {
+    @apply flex flex-shrink-0 uppercase text-lg mx-6 hover:text-green-600;
+}
+
+.moon {
+    @apply text-zinc-800 mt-8 cursor-pointer;
+}
+
+.sun {
+    @apply text-white mt-8 cursor-pointer;
+}
+
+.rightContainer {
+    @apply flex flex-row ml-auto cursor-pointer;
+}
+
+.mode {
+    @apply flex flex-shrink-0 mt-1 mx-6;
+}
