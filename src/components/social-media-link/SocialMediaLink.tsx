@@ -9,7 +9,7 @@ type SocialMediaLinkProps = {
 
 const SocialMediaLink = (props: SocialMediaLinkProps) => {
   return (
-    <a href={props.url} target="_blank" className="mr-4">
+    <a href={props.url} target="_blank" className="mr-4" rel="noopener noreferrer">
       <FontAwesomeIcon size="2x" icon={props.icon} />
     </a>
   )

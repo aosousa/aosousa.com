@@ -6,6 +6,7 @@ import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
 const TopBar = () => {
   const [theme, setTheme] = useState('theme' in localStorage ? localStorage.theme : 'dark')
+  // const [showHamburgerMenu, setShowHamburgerMenu] = useState(false)
   const changeTheme = (theme: string) => {
     setTheme(theme)
     localStorage.setItem('theme', theme)
@@ -16,14 +17,20 @@ const TopBar = () => {
     }
   }
 
+  // useEffect(() => {
+  //   setShowHamburgerMenu(window.innerWidth < 767)
+  // }, [])
+
   return (
     <>
       <header className="container">
         <nav className="containerNav">
           <ul className="containerNav">
             <li className="containerNav">
-              <img src="/img/profile.jpg" alt="André Sousa" className="profileImage" />
-              <p className="profileName">André Sousa</p>
+              <a href="#profile" className="containerNav">
+                <img src="/img/profile.jpg" alt="André Sousa" className="profileImage" />
+                <p className="profileName">André Sousa</p>
+              </a>
             </li>
 
             <li className="rightContainer">
