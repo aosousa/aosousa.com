@@ -1,5 +1,5 @@
 .container {
-  @apply grid sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-2 mt-2;
+  @apply grid xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-7 gap-2 mt-2;
 }
 
 .skill {

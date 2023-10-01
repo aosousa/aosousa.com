@@ -30,6 +30,9 @@ const TopBar = () => {
               <a href="#about" className="item">
                 About
               </a>
+              <a href="#skills" className="item">
+                Skills
+              </a>
               <a href="#experience" className="item">
                 Experience
               </a>

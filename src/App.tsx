@@ -34,52 +34,47 @@ function App() {
           </div>
 
           <div className="content">
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
-              <ProfileSection id="about" title="About">
-                <div className="text-md">
-                  <p className="text-lg mt-2">
-                    I'm a hard-working, detail-oriented software engineer with experience in multiple roles in web development, contributing to the end-to-end development process. Passionate about
-                    designing, developing, and testing impactful, high quality software.
-                  </p>
-                  <p className="py-4">
-                    Currently I'm working as a Frontend Developer at Sparkyway, where I lead the development and optimization of frontend logic in web applications for healthcare institutions, and I
-                    contribute to backend tasks when needed.
-                  </p>
-                  <p>When I'm not in front of a computer screen, I'm most likely reading, watching sports (F1, football, GAA), watching a movie, or learning a tune on the tin whistle.</p>
-                </div>
-              </ProfileSection>
-              <ProfileSection id="skills" title="Skills">
-                <SkillsSection name="Programming Languages" items={programmingLanguages} />
-                <SkillsSection name="Frameworks and Libraries" items={frameworks} />
-                <SkillsSection name="Databases" items={databases} />
-                <SkillsSection name="Platforms and Technologies" items={platforms} />
-                <SkillsSection name="Testing" items={testing} />
-                <div>
-                  <h2 className="profile-skills-type">Languages</h2>
-                  <ul className="profile-skills-list">
-                    <li>Portuguese (native)</li>
-                    <li>English (full professional proficiency)</li>
-                  </ul>
-                </div>
-              </ProfileSection>
-            </div>
-
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-              <ProfileSection id="experience" title="Experience">
-                TODO
-              </ProfileSection>
-              <ProfileSection id="education" title="Education">
-                TODO
-              </ProfileSection>
-            </div>
-
-            <div className="mt-4">
-              <ProfileSection id="projects" title="Personal Projects">
-                TODO
-              </ProfileSection>
-            </div>
+            <ProfileSection id="about" title="About">
+              <div className="text-lg">
+                <p>
+                  I'm a hard-working, detail-oriented software engineer with experience in multiple roles in web development, contributing to the end-to-end development process. Passionate about
+                  designing, developing, and testing impactful, high quality software.
+                </p>
+                <p className="py-4">
+                  Currently I'm working as a Frontend Developer at Sparkyway, where I lead the development and optimization of frontend logic in web applications for healthcare institutions, and I
+                  contribute to backend tasks when needed.
+                </p>
+                <p>When I'm not in front of a computer screen, I'm most likely reading, watching sports (F1, football, GAA), watching a movie, or learning a tune on the tin whistle.</p>
+              </div>
+            </ProfileSection>
+            <ProfileSection id="skills" title="Skills">
+              <SkillsSection name="Programming Languages" items={programmingLanguages} />
+              <SkillsSection name="Frameworks and Libraries" items={frameworks} />
+              <SkillsSection name="Databases" items={databases} />
+              <SkillsSection name="Platforms and Technologies" items={platforms} />
+              <SkillsSection name="Testing" items={testing} />
+              <div>
+                <h2 className="profile-skills-type">Languages</h2>
+                <ul className="profile-skills-list">
+                  <li>Portuguese (native)</li>
+                  <li>English (full professional proficiency)</li>
+                </ul>
+              </div>
+            </ProfileSection>
+            <ProfileSection id="experience" title="Experience and Education">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, doloribus, rerum provident aperiam vitae corrupti consequuntur optio recusandae, odio nisi inventore delectus! Sed
+                eum tempora voluptates explicabo maiores cumque dolores?
+              </p>
+              <p>P2</p>
+              <p>P3</p>
+            </ProfileSection>
+            <ProfileSection id="projects" title="Personal Projects">
+              <p>P1</p>
+              <p>P1</p>
+              <p>P1</p>
+            </ProfileSection>
           </div>
-
           <footer className="footer">
             <SocialMediaLinks />
 

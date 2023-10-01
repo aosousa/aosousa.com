@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        sm: '360px'
+        xs: '360px'
       }
     }
   },

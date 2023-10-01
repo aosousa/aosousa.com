@@ -9,7 +9,7 @@ type ProfileSectionProps = {
 
 const ProfileSection = (props: ProfileSectionProps) => {
   return (
-    <div id={props.id}>
+    <div id={props.id} className={styles.container}>
       <h2 className={styles.title}>{props.title}</h2>
       <div>{props.children}</div>
     </div>

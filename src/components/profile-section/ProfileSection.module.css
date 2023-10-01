@@ -1,3 +1,7 @@
+.container {
+  @apply xs:min-w-[24em] xs:max-w-[24em] sm:min-w-[40em] sm:max-w-[40em] md:min-w-[52em] md:max-w-[52em] mb-4;
+}
+
 .title {
-  @apply text-5xl text-sky-600;
+  @apply text-5xl text-sky-600 -ml-[0.05em];
 }
