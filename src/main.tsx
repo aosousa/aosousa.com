@@ -12,5 +12,5 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

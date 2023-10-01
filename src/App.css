@@ -1,3 +1,46 @@
-.App {
-  @apply min-h-screen h-auto bg-gray-200 dark:bg-zinc-800 items-center justify-center p-2;
+.app {
+  @apply min-h-screen h-auto bg-gray-200 dark:bg-zinc-800;
+}
+
+.intro {
+  @apply flex flex-col min-h-[95vh] bg-gray-200 dark:bg-zinc-800 items-center;
+  background-image: url('img/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-wrapper {
+  @apply flex flex-col text-white items-center my-auto;
+}
+
+.profile-image {
+  @apply w-[18rem] h-[18rem] shadow rounded-full cursor-pointer;
+}
+
+.profile-name {
+  @apply text-6xl mt-4;
+}
+
+.profile-job {
+  @apply text-3xl mt-1;
+}
+
+.arrow-down {
+  @apply text-white mt-auto mb-8;
+  --fa-animation-duration: 1.5s;
+}
+
+.content {
+  @apply p-4;
+}
+
+.footer {
+  @apply flex flex-col h-44 text-white items-center justify-center my-auto;
+  background: rgb(0, 172, 255);
+  background: radial-gradient(circle, rgba(0, 172, 255, 1) 0%, rgba(9, 100, 121, 1) 100%, rgba(0, 168, 255, 1) 100%);
+}
+
+.footer-note {
+  @apply text-lg mt-8;
 }
