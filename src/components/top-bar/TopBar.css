@@ -1,9 +1,9 @@
 .container {
-  @apply h-16 min-w-full flex flex-row items-center bg-gray-200 dark:bg-zinc-800 shadow-sm border-b sticky top-0;
+  @apply h-16 min-w-full flex flex-row items-center bg-gray-200 dark:bg-zinc-800 dark:text-white shadow-sm border-b sticky top-0 z-10;
 }
 
 .containerNav {
-  @apply contents bg-gray-200 dark:bg-zinc-800;
+  @apply contents;
 }
 
 .profileImage {
@@ -15,7 +15,7 @@
 }
 
 .item {
-  @apply flex flex-shrink-0 uppercase text-lg mx-6 hover:text-sky-600;
+  @apply flex flex-shrink-0 uppercase text-lg m-6 hover:text-sky-600;
 }
 
 .moon {
@@ -31,5 +31,5 @@
 }
 
 .mode {
-  @apply flex flex-shrink-0 mt-1 mx-6;
+  @apply flex flex-shrink-0 mx-6 -mt-1;
 }

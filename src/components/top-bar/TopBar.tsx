@@ -1,12 +1,11 @@
 // Core
 import React, { useState } from 'react'
-import styles from './TopBar.module.css'
+import './TopBar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
 const TopBar = () => {
   const [theme, setTheme] = useState('theme' in localStorage ? localStorage.theme : 'dark')
-
   const changeTheme = (theme: string) => {
     setTheme(theme)
     localStorage.setItem('theme', theme)
@@ -19,25 +18,25 @@ const TopBar = () => {
 
   return (
     <>
-      <header className={styles.container}>
-        <nav className={styles.containerNav}>
-          <ul className={styles.containerNav}>
-            <li className={styles.containerNav}>
-              <img src="/img/profile.jpg" alt="André Sousa" className={styles.profileImage} />
-              <p className={styles.profileName}>André Sousa</p>
+      <header className="container">
+        <nav className="containerNav">
+          <ul className="containerNav">
+            <li className="containerNav">
+              <img src="/img/profile.jpg" alt="André Sousa" className="profileImage" />
+              <p className="profileName">André Sousa</p>
             </li>
 
-            <li className={styles.rightContainer}>
-              <a href="#about" className={styles.item}>
+            <li className="rightContainer">
+              <a href="#about" className="item">
                 About
               </a>
-              <a href="#experience" className={styles.item}>
+              <a href="#experience" className="item">
                 Experience
               </a>
-              <a href="#projects" className={styles.item}>
+              <a href="#projects" className="item">
                 Personal Projects
               </a>
-              <div className={styles.mode}>
+              <div className="mode">
                 {theme === 'dark' ? (
                   <FontAwesomeIcon title="Light Mode" className="sun" size="lg" icon={faSun} onClick={() => changeTheme('light')} />
                 ) : (
