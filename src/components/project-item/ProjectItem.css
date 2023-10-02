@@ -1,0 +1,19 @@
+.project {
+  @apply flex flex-col md:flex-row pb-2 mt-4;
+}
+
+.image {
+  @apply min-w-[24em] md:min-w-[32em] min-h-[12em] md:h-[16em] mb-4 md:mb-0;
+}
+
+.description {
+  @apply flex flex-col md:ml-2 -mt-2;
+}
+
+.title {
+  @apply font-semibold hover:text-sky-500 cursor-pointer text-3xl;
+}
+
+.tech {
+  @apply grid grid-cols-3 lg:grid-cols-4 gap-2 mt-auto;
+}

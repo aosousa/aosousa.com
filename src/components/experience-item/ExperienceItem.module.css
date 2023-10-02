@@ -1,3 +1,7 @@
 .header {
   @apply font-semibold text-base flex flex-row uppercase;
 }
+
+.right {
+  @apply ml-auto text-right;
+}

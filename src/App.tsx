@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // Components
 import ExperienceItem from './components/experience-item/ExperienceItem'
 import ProfileSection from './components/profile-section/ProfileSection'
+import ProjectItem from './components/project-item/ProjectItem'
 import SocialMediaLinks from './components/social-media-links/SocialMediaLinks'
 import SkillsSection from './components/skills-section/SkillsSection'
 import TopBar from './components/top-bar/TopBar'
@@ -193,13 +194,46 @@ function App() {
                 <ExperienceItem institution="Universidade dos Açores" location="Ponta Delgada, Portugal" role="Bachelor of Science in Computer Science" timePeriod="09/2013 - 06/2016" />
               </div>
             </ProfileSection>
-            <ProfileSection id="projects" title="Personal Projects">
-              <p className="mt-2">These are small projects I use as an opportunity to learn new technologies and keep improving as a software developer.</p>
-            </ProfileSection>
+            <div className="-mt-6">
+              <ProfileSection id="projects" title="Personal Projects">
+                <ProjectItem imageSource="personal.png" projectLink="https://aosousa.com" title="Personal Website" description="This page!" techStack={['React', 'TypeScript', 'Tailwind']} />
+
+                <ProjectItem
+                  imageSource="gt7_manufacturer.png"
+                  projectLink="https://gtcollection.aosousa.com"
+                  title="GT7 Collection"
+                  description="Track cars and parts owned in Gran Turismo 7"
+                  techStack={['React', 'TypeScript', 'Zustand', 'Tailwind', 'Node.js', 'Fastify', 'MySQL']}
+                />
+
+                <ProjectItem
+                  imageSource="elo_ranking.png"
+                  projectLink="https://eloranker.aosousa.com"
+                  title="ELO Ranker"
+                  description="Vote on different rankings and save the results. Ranking is calculated using the Elo rating system"
+                  techStack={['React', 'TypeScript', 'Redux', 'Tailwind', 'Node.js', 'Express.js', 'MySQL']}
+                />
+
+                <ProjectItem
+                  imageSource="rfa_home.png"
+                  projectLink="https://rfatracker.aosousa.com"
+                  title="Ring Fit Adventure Tracker"
+                  description="Track Ring Fit Adventure sessions"
+                  techStack={['React', 'TypeScript', 'Redux', 'Tailwind', 'Node.js', 'Express.js', 'MySQL']}
+                />
+
+                <ProjectItem
+                  imageSource="movie_award_season.png"
+                  projectLink="https://awardseason.aosousa.com"
+                  title="Movie Award Season"
+                  description="Display the winners during the movie award season for a given year"
+                  techStack={['React', 'TypeScript', 'Tailwind']}
+                />
+              </ProfileSection>
+            </div>
           </div>
           <footer className="footer">
             <SocialMediaLinks />
-
             <p className="footer-note">&copy; André Sousa 2023</p>
           </footer>
         </div>

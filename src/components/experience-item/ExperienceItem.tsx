@@ -15,11 +15,11 @@ const ExperienceItem = (props: ExperienceItemProps) => {
     <div className="mb-8">
       <div className={styles.header}>
         <p>{props.institution}</p>
-        <p className="ml-auto">{props.location}</p>
+        <p className={styles.right}>{props.location}</p>
       </div>
       <div className="flex flex-row">
         <p>{props.role}</p>
-        <p className="ml-auto">{props.timePeriod}</p>
+        <p className={styles.right}>{props.timePeriod}</p>
       </div>
       {props.skills && <div className="text-xs">Tech Stack: {props.skills.join(', ')}</div>}
       {props.children}
