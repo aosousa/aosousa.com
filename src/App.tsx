@@ -22,7 +22,7 @@ function App() {
       <div className="wrapper" id="profile">
         <TopBar />
         <div className="app">
-          <div className="intro bg-[url('/img/bg.jpg')]">
+          <div className="intro bg-[url('/img/bg.webp')]">
             <div className="profile-wrapper">
               <img src="img/profile.jpg" alt="André Sousa" className="profile-image" />
               <h2 className="profile-name">André Sousa</h2>
@@ -196,10 +196,10 @@ function App() {
             </ProfileSection>
             <div className="-mt-6">
               <ProfileSection id="projects" title="Personal Projects">
-                <ProjectItem imageSource="personal.png" projectLink="https://aosousa.com" title="Personal Website" description="This page!" techStack={['React', 'TypeScript', 'Tailwind']} />
+                <ProjectItem imageSource="personal.webp" projectLink="https://aosousa.com" title="Personal Website" description="This page!" techStack={['React', 'TypeScript', 'Tailwind']} />
 
                 <ProjectItem
-                  imageSource="gt7_manufacturer.png"
+                  imageSource="gt7_manufacturer.webp"
                   projectLink="https://gtcollection.aosousa.com"
                   title="GT7 Collection"
                   description="Track cars and parts owned in Gran Turismo 7"
@@ -207,7 +207,7 @@ function App() {
                 />
 
                 <ProjectItem
-                  imageSource="elo_ranking.png"
+                  imageSource="elo_ranking.webp"
                   projectLink="https://eloranker.aosousa.com"
                   title="ELO Ranker"
                   description="Vote on different rankings and save the results. Ranking is calculated using the Elo rating system"
@@ -215,7 +215,7 @@ function App() {
                 />
 
                 <ProjectItem
-                  imageSource="rfa_home.png"
+                  imageSource="rfa_home.webp"
                   projectLink="https://rfatracker.aosousa.com"
                   title="Ring Fit Adventure Tracker"
                   description="Track Ring Fit Adventure sessions"
@@ -223,7 +223,7 @@ function App() {
                 />
 
                 <ProjectItem
-                  imageSource="movie_award_season.png"
+                  imageSource="movie_award_season.webp"
                   projectLink="https://awardseason.aosousa.com"
                   title="Movie Award Season"
                   description="Display the winners during the movie award season for a given year"
