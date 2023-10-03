@@ -22,7 +22,7 @@ function App() {
       <div className="wrapper" id="profile">
         <TopBar />
         <div className="app">
-          <div className="intro">
+          <div className="intro bg-[url('/img/bg.jpg')]">
             <div className="profile-wrapper">
               <img src="img/profile.jpg" alt="André Sousa" className="profile-image" />
               <h2 className="profile-name">André Sousa</h2>
