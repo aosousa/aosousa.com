@@ -194,7 +194,7 @@ function App() {
                 <ExperienceItem institution="Universidade dos Açores" location="Ponta Delgada, Portugal" role="Bachelor of Science in Computer Science" timePeriod="09/2013 - 06/2016" />
               </div>
             </ProfileSection>
-            <div className="-mt-6">
+            {/* <div className="-mt-6">
               <ProfileSection id="projects" title="Personal Projects">
                 <ProjectItem imageSource="personal.webp" projectLink="https://aosousa.com" title="Personal Website" description="This page!" techStack={['React', 'TypeScript', 'Tailwind']} />
 
@@ -230,7 +230,7 @@ function App() {
                   techStack={['React', 'TypeScript', 'Tailwind']}
                 />
               </ProfileSection>
-            </div>
+            </div> */}
           </div>
           <footer className="footer">
             <SocialMediaLinks />

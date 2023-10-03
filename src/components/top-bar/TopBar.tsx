@@ -43,9 +43,9 @@ const TopBar = () => {
               <a href="#experience" className="item">
                 Experience
               </a>
-              <a href="#projects" className="item">
+              {/* <a href="#projects" className="item">
                 Personal Projects
-              </a>
+              </a> */}
               <div className="mode">
                 {theme === 'dark' ? (
                   <FontAwesomeIcon title="Light Mode" className="sun" size="lg" icon={faSun} onClick={() => changeTheme('light')} />
