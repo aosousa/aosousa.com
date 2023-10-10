@@ -1,5 +1,5 @@
 .container {
-  @apply xs:min-w-[24em] xs:max-w-[24em] sm:min-w-[40em] sm:max-w-[40em] md:min-w-[52em] md:max-w-[52em] lg:min-w-[64em] lg:max-w-[64em] mb-4;
+  @apply xs:min-w-[24em] xs:max-w-[24em] sm:min-w-[40em] sm:max-w-[40em] md:min-w-[52em] md:max-w-[52em] lg:min-w-[64em] lg:max-w-[64em] mb-4 scroll-mt-16;
 }
 
 .title {

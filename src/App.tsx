@@ -148,7 +148,7 @@ function App() {
                   location="Lagoa, Portugal"
                   role="Full-stack Developer"
                   timePeriod="07/2016 - 03/2019"
-                  skills={['HTML', 'JavaScript', 'TypeScript', 'CSS', 'Bootstrap', 'Angular', 'PHP (Phalcon, Yii)', 'Node.js', 'MySQL', 'SQL Server', 'MongoDB']}
+                  skills={['HTML', 'JavaScript', 'TypeScript', 'CSS', 'Bootstrap', 'Angular', 'PHP (Yii)', 'Node.js', 'Go', 'MySQL', 'SQL Server', 'MongoDB']}
                 >
                   <div className="mt-2">
                     <p>
