@@ -70,7 +70,7 @@ function App() {
                   institution="Sparkyway"
                   location="Lagoa, Portugal"
                   role="Front-end Developer"
-                  timePeriod="04/2022 - Present"
+                  timePeriod="04/2022 - 12/2023"
                   skills={['HTML', 'JavaScript', 'TypeScript', 'CSS', 'Tailwind', 'Vue', 'PHP (CodeIgniter)', 'Node.js', 'MySQL', 'Cypress', 'Vitest']}
                 >
                   <div className="mt-2">
