@@ -26,7 +26,7 @@ function App() {
             <div className="profile-wrapper">
               <img src="img/profile.jpg" alt="André Sousa" className="profile-image" />
               <h2 className="profile-name">André Sousa</h2>
-              <h3 className="profile-job">Software Engineer</h3>
+              <h3 className="profile-job">Software Engineer - IDASO Ltd</h3>
               <SocialMediaLinks />
             </div>
 
@@ -66,6 +66,15 @@ function App() {
             </ProfileSection>
             <ProfileSection id="experience" title="Experience">
               <div className="mt-2">
+                <ExperienceItem
+                  institution="IDASO Ltd"
+                  location="Mullingar, Co. Westmeath, Ireland"
+                  role="Software Developer"
+                  timePeriod="01/2023 - Present"
+                  skills={['HTML', 'JavaScript', 'TypeScript', 'CSS', 'Bootstrap', 'Angular', 'NestJS', 'Node.js', 'PostgreSQL']}
+                >
+                </ExperienceItem>
+
                 <ExperienceItem
                   institution="Sparkyway"
                   location="Lagoa, Portugal"
