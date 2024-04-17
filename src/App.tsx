@@ -43,11 +43,10 @@ function App() {
                   and testing high quality software with a real world impact.
                 </p>
                 <p className="py-4">
-                  Currently I'm working as a Front-end Developer at Sparkyway, where I lead the development and optimization of front-end logic in web applications for healthcare institutions, and I
-                  contribute to backend tasks when needed. In my free time I try to keep in touch with new and interesting programming languages, frameworks and libraries in order to always be
+                  Currently I'm working as a Senior Software Developer at IDASO Ltd. In my free time I try to keep in touch with new and interesting programming languages, frameworks and libraries in order to always be
                   improving as a developer.
                 </p>
-                <p>When I'm not in front of a computer screen, I'm most likely reading, watching sports (F1, football, GAA), watching a movie, or learning a tune on the tin whistle.</p>
+                <p>When I'm not in front of a computer screen, I'm most likely reading, watching sports (F1, NBA, football, GAA), watching a movie, or learning a tune on the tin whistle.</p>
               </div>
             </ProfileSection>
             <ProfileSection id="skills" title="Skills">
@@ -69,8 +68,8 @@ function App() {
                 <ExperienceItem
                   institution="IDASO Ltd"
                   location="Mullingar, Co. Westmeath, Ireland"
-                  role="Software Developer"
-                  timePeriod="01/2023 - Present"
+                  role="Senior Software Developer"
+                  timePeriod="01/2024 - Present"
                   skills={['HTML', 'JavaScript', 'TypeScript', 'CSS', 'Bootstrap', 'Angular', 'NestJS', 'Node.js', 'PostgreSQL']}
                 >
                 </ExperienceItem>
