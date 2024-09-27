@@ -5,14 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // Components
 import ExperienceItem from './components/experience-item/ExperienceItem'
 import ProfileSection from './components/profile-section/ProfileSection'
-import ProjectItem from './components/project-item/ProjectItem'
 import SocialMediaLinks from './components/social-media-links/SocialMediaLinks'
 import SkillsSection from './components/skills-section/SkillsSection'
 import TopBar from './components/top-bar/TopBar'
 
-const programmingLanguages = ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'PHP', 'Node.js', 'Python', 'Go', 'Java']
-const frameworks = ['Vue', 'React', 'Angular', 'Express.js', 'Fastify', 'Prisma', 'Tailwind', 'Bootstrap', 'Tailwind', 'CodeIgniter', 'Yii', 'Phalcon', 'Flask', 'Scikit-learn', 'Pandas', 'Numpy']
-const databases = ['MySQL', 'SQL Server', 'MongoDB']
+const programmingLanguages = ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'PHP', 'Node.js', 'Python', 'Go', 'Java', 'Dart']
+const frameworks = ['Vue', 'React', 'Angular', 'Express.js', 'Fastify', 'Prisma', 'Tailwind', 'Bootstrap', 'Tailwind', 'Flutter', 'CodeIgniter', 'Yii', 'Phalcon', 'Flask', 'Scikit-learn', 'Pandas', 'Numpy']
+const databases = ['MySQL', 'SQL Server', 'PostgreSQL', 'MongoDB']
 const platforms = ['Git', 'GitHub', 'GitLab', 'NPM', 'REST APIs', 'Web Sockets']
 const testing = ['Mocha', 'Chai', 'Cypress', 'Vitest']
 
